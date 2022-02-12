@@ -94,7 +94,7 @@ def menu():
             print(' ')
             print(v)
             print(' ')
-        if keuze.lower() == 'l':
+        elif keuze.lower() == 'l':
             l = maak_loop()
             loops.append(l)
             print(' ')
